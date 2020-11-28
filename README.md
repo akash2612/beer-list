@@ -1,6 +1,10 @@
 # BeerList
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Its a dummy beer listing app. It includes 
+1. Search Filtering using Angular custom Pipes
+2. Ngx-Pagination
+3. Fetching the list from API
 
 ## Development server
 
