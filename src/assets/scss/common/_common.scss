@@ -1,0 +1,28 @@
+.cm-not-in-page {
+    left: -99999px;
+    position: absolute;
+    top: -99999px;
+}
+
+.cm-line-break {
+    display: block;
+}
+
+.cm-hidden {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.col-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .col-item {
+        width: 31%;
+    }
+}

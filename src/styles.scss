@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+  @Project : Beer List
+  @Dev : Akash
+  @Date : 28/11/2020;
+*/
+
+
+/* config */
+
+@import "assets/scss/config/variables";
+
+/* element */
+
+@import "assets/scss/elements/normalize";
+@import "assets/scss/elements/elements";
+
+/* common */
+
+@import "assets/scss/common/common";
+
+/* bootstrap extended */
+
+// @import "component-extended/btn";
+
+/* base include */
+
+@import "assets/scss/base/bs-header";
+@import "assets/scss/base/bs-section";
+@import "assets/scss/base/bs-card";
+
+/* layout */
+
+@import "assets/scss/layout/lyt-main";
+
+/* modules */
+
+
+/* pages */

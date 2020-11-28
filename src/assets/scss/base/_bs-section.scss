@@ -1,0 +1,24 @@
+// bs-section
+.bs-section {
+    padding: 2rem 1.5rem;
+    .search-wrap {
+        margin-bottom: 1.5rem;
+        .form-control {
+            border: 1px solid $clr-secondary;
+            padding: 1.5rem;
+            height: auto;
+            width: 100%;
+            font-size: 2.2rem;
+            line-height: 2.6rem;
+            text-transform: uppercase;
+        }
+    }
+    .card-list {
+        .card-item {
+            margin: 1rem 0;
+            .bs-card {
+                height: 100%;
+            }
+        }
+    }
+}

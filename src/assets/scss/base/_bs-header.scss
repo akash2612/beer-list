@@ -1,0 +1,23 @@
+// bs-header
+.bs-header {
+    height: 8rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px #e5e5e5;
+    background: $clr-white;
+    z-index: 2;
+    .logo {
+        display: inline-block;
+        font-size: 4rem;
+        line-height: 4.8rem;
+        font-weight: $font-light;
+        font-style: italic;
+        color: $clr-black;
+        padding: 1rem 0;
+    }
+}

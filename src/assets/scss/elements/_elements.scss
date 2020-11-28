@@ -1,0 +1,73 @@
+/* element.scss */
+
+* {
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: initial;
+    color: $clr-base;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: $clr-base;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+@media only screen and (max-width:$mobile-breakpoint-xs) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:$mobile-breakpoint) {
+    body {
+        font-size: 1.4rem;
+        overflow: initial;
+        &.scroll-lock {
+            overflow-y: hidden!important;
+        }
+    }
+    p {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+}
+
+@media only screen and (min-width:980px) and (max-width:$mobile-breakpoint) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1280px) and (min-width:1025px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    html {
+        font-size: 14px;
+    }
+}
